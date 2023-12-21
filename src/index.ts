@@ -14,7 +14,7 @@ app.get("/", (req,res) => {
 });
 
 app.get("/users", (req,res) => {
-   const userController = new GetUsersController()
+   const userController = new GetUsersController('mongodb')
    const user = userController.handle()
     res.json(user);
 });
