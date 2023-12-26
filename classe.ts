@@ -16,6 +16,11 @@ class Animal implements AnimalInterface {
   }
 }
 
+class Cachorro {
+  constructor(private Animal: AnimalInterface) {}
+}
+
+
 const bob = new Animal('Bob', 'Vira-lata');
 
 console.log(bob.getName());
