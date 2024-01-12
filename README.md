@@ -1,3 +1,3 @@
 -- Em construção --
 
-Em breve README :)
+Em breve README
