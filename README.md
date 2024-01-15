@@ -1,3 +1,1 @@
--- Em construção --
-
-Em breve README
+This repository serves as a collection of exercises undertaken during my internship at Winhub. The exercises are designed to enhance my learning and skill development in various aspects related to the internship.
