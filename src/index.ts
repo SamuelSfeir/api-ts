@@ -13,10 +13,10 @@ app.get("/", (req,res) => {
     res.send('Deu certo');
 });
 
-app.get("/users", (req,res) => {
-   const userController = new GetUsersController('mongodb')
-   const user = userController.handle()
-    res.json(user);
-});
+// app.get("/users", (req,res) => {
+// //    const userController = new GetUsersController('mongodb')
+//    const user = userController.handle()
+//     res.json(user);
+// });
 
 app.listen(process.env.PORT, () => console.log(`listening to: ${process.env.PORT}`));
